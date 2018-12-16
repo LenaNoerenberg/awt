@@ -1,0 +1,71 @@
+body {
+    padding: 20px;
+    font-family: Arial;
+}
+
+.grid {
+    width: 95%;
+    height: 800px;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: #ddd;
+    margin: 10px 0px;
+    border: 10px solid #ddd;
+    clear: both;
+}
+
+.grid > div {
+    background-color: #fff;
+    position: absolute;
+}
+
+/* template selections for sample #2 */
+
+.dev-tile-number, .dev-tile-size{
+    font-size: 2vw;
+    padding: 10px;
+}
+
+.dev-template {
+    margin-right: 20px;
+    height: 35px;
+    display: inline-block;
+    background: url(dev-tiles-sprite.png) no-repeat;
+    cursor: pointer;
+}
+
+.dev-template.selected {
+    background-position-y: -200px;
+}
+
+.dev-l1 {
+    width: 47px;
+}
+
+.dev-l2 {
+    width: 47px;
+    background-position-x: -68px;
+}
+
+.dev-l3 {
+    width: 39px;
+    background-position-x: -135px;
+}
+
+.dev-l4 {
+    width: 39px;
+    background-position-x: -194px;
+}
+
+.dev-l5 {
+    width: 47px;
+    background-position-x: -245px;
+    margin-right: 0px;
+}
+
+
+.playlist, .autoplay, .autoplay-sound{
+    font-size: 1vw;
+    padding: 10px;
+}
