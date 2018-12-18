@@ -72,4 +72,4 @@ function parse(JSON_STRING) {
   return gridLayout;
 }
 
-module.exports = parse;
+// module.exports = parse;

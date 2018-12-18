@@ -1,5 +1,5 @@
-//const parse = require('./jsonGridParser');
-
+// const parse = require('/jsonGridParser');
+// import parse from 'jsonGridParser'
 const JSON_STRING = `{
     "event_id": "5b4da747ab15f55e2df0faf3",
     "board_templates": {
@@ -253,8 +253,8 @@ const JSON_STRING = `{
 
 
 
-  //const layout = parse(JSON_STRING);
-  //console.log(layout.breakpoints);
+  const layout = parse(JSON_STRING);
+  console.log(layout.breakpoints);
 
 
 
@@ -397,17 +397,17 @@ $(function() {
                 }
 
                 width = kachelDimensionen[i][0];
-               //console.log('WIDTH: ' + width);  
+                // console.log('WIDTH: ' + width);  
                 height = kachelDimensionen[i][1];
-                //console.log('HEIGHT: ' + height);
+                // console.log('HEIGHT: ' + height);
                 i++;
 
                 
                 for(let rectY = 0; rectY < height; rectY++) {
                     for(let rectX = 0; rectX < width; rectX++) {
-                        //console.log(visited);
+                        // console.log(visited);
                         visited[y+rectY][x+rectX] = true;
-                        //console.log(visited);
+                        // console.log(visited);
                     }
                 }
                 // add the rect
