@@ -1,0 +1,19 @@
+{
+  "name": "awt",
+  "version": "1.0.0",
+  "description": "###  **Seiteninhalt:** 1. [Gegebene JSON Datei](#gegebene-json-datei) 2. [Unser eigenes Modul](#unser-eigenes-modul-(awt-json-parser))     1. [Aufbau](#aufbau)     2. [Import](#import)     3. [Verwendung](#verwendung) 3. [Tilesjs Grid Library](#tilesjs-grid-library)     1. [Wofür überhaupt?](#wofür-überhaupt?)     2. [Import](#tilesjs-import)     3. [Verwendung](#tilesjs-verwendung)",
+  "main": "awt-json-parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LenaNoerenberg/awt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LenaNoerenberg/awt/issues"
+  },
+  "homepage": "https://github.com/LenaNoerenberg/awt#readme"
+}
